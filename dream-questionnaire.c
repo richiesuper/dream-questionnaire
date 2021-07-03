@@ -268,7 +268,7 @@ int game() {
             incorrectAnswers++;
         }
 
-        printf("What is Dream's third YouTube channel's name?\nEnter your answer (e.g. AnimeSexClips): ");
+        printf("What is Dream's third YouTube channel's name?\nEnter your answer (e.g. AnimeClips): ");
         fgets(dreamThirdYoutubeChannelName, 64, stdin);
         dreamThirdYoutubeChannelName[strcspn(dreamThirdYoutubeChannelName, "\n")] = 0;
         if(strcmp(dreamThirdYoutubeChannelName, "Dream Tech") == 0) {
@@ -277,7 +277,7 @@ int game() {
             incorrectAnswers++;
         }
 
-        printf("What is Dream's fourth YouTube channel's name?\nEnter your answer (e.g. HentaiReviews): ");
+        printf("What is Dream's fourth YouTube channel's name?\nEnter your answer (e.g. GameReviews): ");
         fgets(dreamFourthYoutubeChannelName, 64, stdin);
         dreamFourthYoutubeChannelName[strcspn(dreamFourthYoutubeChannelName, "\n")] = 0;
         if(strcmp(dreamFourthYoutubeChannelName, "Dream Shorts") == 0) {
@@ -286,7 +286,7 @@ int game() {
             incorrectAnswers++;
         }
 
-        printf("What is Dream's fifth YouTube channel's name?\nEnter your answer (e.g. nhentai-code-guru): ");
+        printf("What is Dream's fifth YouTube channel's name?\nEnter your answer (e.g. code-guru): ");
         fgets(dreamFifthYoutubeChannelName, 64, stdin);
         dreamFifthYoutubeChannelName[strcspn(dreamFifthYoutubeChannelName, "\n")] = 0;
         if(strcmp(dreamFifthYoutubeChannelName, "Dream Music") == 0) {
