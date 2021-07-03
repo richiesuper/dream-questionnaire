@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main();
+int main(void);
 
 char g_playerName[64];
 
